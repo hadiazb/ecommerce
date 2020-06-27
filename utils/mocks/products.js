@@ -1,4 +1,4 @@
-const productsMock = [
+const productsMock = [ 
   {
     name: "Brown t-shirt",
     price: "50",

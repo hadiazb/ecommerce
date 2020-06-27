@@ -21,7 +21,7 @@ function productsApi(app) {
 
 	router.get('/', async (req, res, next) => {
 		const { tags } = req.query;
-		console.log('req', req.query);
+		// console.log('req', req.query);
 		try {
 			// myUndefinedFunction();
 			const products = await productsService.getProducts({
